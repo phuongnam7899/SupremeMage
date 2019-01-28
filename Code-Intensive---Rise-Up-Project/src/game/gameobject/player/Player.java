@@ -15,11 +15,6 @@ public class Player extends GameObject implements Physics {
     BoxColider boxColider;
     FrameCounter velocityCounter;
     Vector2D oldPosition;
-    public static int score = 0;
-
-
-    FrameCounter scoreCounter;
-//    Vector2D newPosition;
 
     public Player() {
         GameObject.midLayer.add(this);
@@ -29,7 +24,6 @@ public class Player extends GameObject implements Physics {
         this.renderer = new SingleImageRenderer(image);
         this.velocityCounter = new FrameCounter(2);
         this.oldPosition = new Vector2D(this.position.x,this.position.y);
-        this.scoreCounter = new FrameCounter(1);
     }
 
     @Override
@@ -37,7 +31,6 @@ public class Player extends GameObject implements Physics {
         this.move();
         this.limitPosition();// gioi han d chuyen
         this.velocityCalc();
-        this.scoreCalc();
     }
 
     @Override
@@ -68,7 +61,6 @@ public class Player extends GameObject implements Physics {
         int x = (int)MouseInfo.getPointerInfo().getLocation().getX();
         int y = (int)MouseInfo.getPointerInfo().getLocation().getY();
         this.position.set(x,y);
-//        System.out.println(this.position.x);
     }
 
     public Vector2D velocityCalc(){
@@ -76,22 +68,11 @@ public class Player extends GameObject implements Physics {
             Vector2D newPosition = new Vector2D(this.position.x,this.position.y);
             Vector2D v = new Vector2D(newPosition.x - this.oldPosition.x,newPosition.y - this.oldPosition.y);
             this.velocity.set(v);
-//            System.out.println(this.velocity + "     " + this.oldPosition + "       " + newPosition);
             this.oldPosition.set(newPosition);
             this.velocityCounter.reset();
         }
         return this.velocity;
     }
-
-    public int scoreCalc(){
-        if (this.scoreCounter.run()){
-            this.score++;
-            this.scoreCounter.reset();
-            System.out.println(this.score);
-        }
-        return this.score;
-    }
-
     @Override
     public BoxColider getBoxColider() {
         return this.boxColider;

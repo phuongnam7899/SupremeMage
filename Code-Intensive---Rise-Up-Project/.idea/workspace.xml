@@ -2,57 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9fc8af1-165a-4855-b28c-cf6e585aa82c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/music/bgm/ending.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/sfx/aliencolide.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/sfx/batcolide.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/sfx/boomexplosion.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/sfx/freeze.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/sfx/ghostcolide.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/sfx/shield-hit.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/sfx/wariorcolide.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/PowerupSummoner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tklibs/AudioUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Alien1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Alien1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Bat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Bat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/EnemySummoner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/EnemySummoner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Ghost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Ghost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Warrior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/magician/Magician.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/magician/Magician.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/player/ActualShield.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/player/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Boom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Boom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/BoomExplosion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/BoomExplosion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Freeze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Freeze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Shield.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Shield.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundGameOver$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundGameOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundGameOver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundWelcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundWelcome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/Scene.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneGameOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneGameOver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneStage1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneStage1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneWelcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneWelcome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Alien1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Alien1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Bat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/EnemySummoner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/EnemySummoner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Ghost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Ghost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/magician/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/magician/Magician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/player/ActualShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/magician/ActualShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/Score.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/gameobject/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/powerup/Boom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/Boom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/powerup/BoomExplosion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/BoomExplosion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameobject/powerup/Shield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/Shield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/scene/BackgroundWelcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/BackgroundWelcome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/scene/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/scene/SceneGameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/SceneGameOver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/scene/SceneManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/SceneManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/scene/BackgroundGameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/BackgroundGameOver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/scene/SceneStage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/SceneStage1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/scene/SceneWelcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/SceneWelcome.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,14 +16,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1671">
+            <state relative-caret-position="19">
               <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3724#3725#0" expanded="true" />
                 <element signature="e#3770#3771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/gameobject/player/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game/scene/SceneGameOver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,9 +54,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="532">
               <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding>
+                <element signature="e#1789#1790#0" expanded="true" />
                 <element signature="e#1821#1822#0" expanded="true" />
               </folding>
             </state>
@@ -100,9 +76,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Bat</find>
+      <find>score</find>
     </findStrings>
     <dirStrings>
       <dir>D:\prj\Code-Intensive---Rise-Up-Project\Code-Intensive---Rise-Up-Project\src\game</dir>
+      <dir>D:\prj\Code-Intensive---Rise-Up-Project\SupremeMage\Code-Intensive---Rise-Up-Project</dir>
+      <dir>D:\prj\Code-Intensive---Rise-Up-Project\SupremeMage\Code-Intensive---Rise-Up-Project\src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -131,7 +110,6 @@
         <option value="$PROJECT_DIR$/src/game/gameobject/Score.java" />
         <option value="$PROJECT_DIR$/src/game/scene/BackgroundGameOver.java" />
         <option value="$PROJECT_DIR$/src/game/gameobject/powerup/BoomExplosion.java" />
-        <option value="$PROJECT_DIR$/src/game/gameobject/player/Player.java" />
         <option value="$PROJECT_DIR$/src/tklibs/AudioUtils.java" />
         <option value="$PROJECT_DIR$/src/game/gameobject/powerup/Boom.java" />
         <option value="$PROJECT_DIR$/src/game/gameobject/powerup/PowerupSummoner.java" />
@@ -141,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/game/scene/SceneManager.java" />
         <option value="$PROJECT_DIR$/src/game/scene/BackgroundWelcome.java" />
         <option value="$PROJECT_DIR$/src/game/scene/SceneWelcome.java" />
-        <option value="$PROJECT_DIR$/src/game/scene/SceneStage1.java" />
         <option value="$PROJECT_DIR$/src/game/scene/SceneGameOver.java" />
         <option value="$PROJECT_DIR$/src/game/gameobject/enemy/Warrior.java" />
         <option value="$PROJECT_DIR$/src/game/gameobject/enemy/Ghost.java" />
@@ -150,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/game/gameobject/enemy/EnemySummoner.java" />
         <option value="$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java" />
         <option value="$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/game/scene/SceneStage1.java" />
       </list>
     </option>
   </component>
@@ -164,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,6 +202,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="gameobject" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="gameobject" type="462c0819:PsiDirectoryNode" />
               <item name="powerup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,11 +236,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548668567186" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548680927885" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -304,14 +292,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -320,7 +307,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -414,16 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/gameobject/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.base/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -486,13 +463,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/gameobject/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -632,16 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/scene/SceneGameOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Alien1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -690,23 +650,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3724#3725#0" expanded="true" />
+            <element signature="e#3770#3771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="532">
           <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding>
+            <element signature="e#1789#1790#0" expanded="true" />
             <element signature="e#1821#1822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java">
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/Score.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1671">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3770#3771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scene/SceneGameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
