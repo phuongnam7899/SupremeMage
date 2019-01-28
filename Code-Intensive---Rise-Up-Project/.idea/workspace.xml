@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9fc8af1-165a-4855-b28c-cf6e585aa82c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/music/bgm/ending.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/sfx/aliencolide.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/sfx/batcolide.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/sfx/boomexplosion.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/sfx/freeze.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/sfx/ghostcolide.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/sfx/shield-hit.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/sfx/wariorcolide.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/PowerupSummoner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tklibs/AudioUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Alien1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Alien1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Bat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Bat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/EnemySummoner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/EnemySummoner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Ghost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Ghost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/enemy/Warrior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/magician/Magician.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/magician/Magician.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/player/ActualShield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Boom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Boom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/BoomExplosion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/BoomExplosion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Freeze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Freeze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Shield.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/gameobject/powerup/Shield.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundGameOver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundGameOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundGameOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundWelcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/BackgroundWelcome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/Scene.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/Scene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneGameOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneGameOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneStage1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneStage1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneWelcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code-Intensive---Rise-Up-Project/game/scene/SceneWelcome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Alien1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Alien1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Bat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/EnemySummoner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/EnemySummoner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Ghost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Ghost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/enemy/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/enemy/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/magician/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/magician/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/player/ActualShield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/magician/ActualShield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/powerup/Boom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/Boom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/powerup/BoomExplosion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/BoomExplosion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/gameobject/powerup/Shield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameobject/powerup/Shield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/scene/BackgroundWelcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/BackgroundWelcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/scene/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/scene/SceneGameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/SceneGameOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/scene/SceneManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/SceneManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/scene/SceneStage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/SceneStage1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/scene/SceneWelcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/scene/SceneWelcome.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1671">
+              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3770#3771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+              <folding>
+                <element signature="e#1821#1822#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Bat</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\prj\Code-Intensive---Rise-Up-Project\Code-Intensive---Rise-Up-Project\src\game</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/game/powerup/Item.java" />
+        <option value="$PROJECT_DIR$/src/game/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/game/powerup/Freeze.java" />
+        <option value="$PROJECT_DIR$/src/game/enemy/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/game/enemy/Bat.java" />
+        <option value="$PROJECT_DIR$/src/game/enemy/Alien1.java" />
+        <option value="$PROJECT_DIR$/src/game/enemy/Ghost.java" />
+        <option value="$PROJECT_DIR$/src/game/enemy/Warrior.java" />
+        <option value="$PROJECT_DIR$/src/game/enemy/EnemySummoner.java" />
+        <option value="$PROJECT_DIR$/src/game/powerup/Boom.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/Background.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/player/ActualShield.java" />
+        <option value="$PROJECT_DIR$/src/game/GameWindow.java" />
+        <option value="$PROJECT_DIR$/src/game/GamePanel.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/magician/Magician.java" />
+        <option value="$PROJECT_DIR$/src/game/renderer/Animation.java" />
+        <option value="$PROJECT_DIR$/src/game/Settings.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/Score.java" />
+        <option value="$PROJECT_DIR$/src/game/scene/BackgroundGameOver.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/powerup/BoomExplosion.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/tklibs/AudioUtils.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/powerup/Boom.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/powerup/PowerupSummoner.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/powerup/Shield.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/magician/ActualShield.java" />
+        <option value="$PROJECT_DIR$/src/game/scene/Scene.java" />
+        <option value="$PROJECT_DIR$/src/game/scene/SceneManager.java" />
+        <option value="$PROJECT_DIR$/src/game/scene/BackgroundWelcome.java" />
+        <option value="$PROJECT_DIR$/src/game/scene/SceneWelcome.java" />
+        <option value="$PROJECT_DIR$/src/game/scene/SceneStage1.java" />
+        <option value="$PROJECT_DIR$/src/game/scene/SceneGameOver.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/enemy/Warrior.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/enemy/Ghost.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/enemy/Alien1.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/enemy/Bat.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/enemy/EnemySummoner.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java" />
+        <option value="$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="709" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+              <item name="sfx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="gameobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="gameobject" type="462c0819:PsiDirectoryNode" />
+              <item name="enemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="gameobject" type="462c0819:PsiDirectoryNode" />
+              <item name="powerup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="renderer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code-Intensive---Rise-Up-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code-Intensive---Rise-Up-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tklibs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548668567186" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\prj\Code-Intensive---Rise-Up-Project\Code-Intensive---Rise-Up-Project\assets\music\sfx" />
+      <recent name="D:\prj\Code-Intensive---Rise-Up-Project\Code-Intensive---Rise-Up-Project\assets\music\bgm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\prj\Code-Intensive---Rise-Up-Project\Code-Intensive---Rise-Up-Project\src\game\scene" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="Code-Intensive---Rise-Up-Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9fc8af1-165a-4855-b28c-cf6e585aa82c" name="Default Changelist" comment="" />
+      <created>1548513632971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548513632971</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/magician/Magician.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.desktop/java/awt/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-955">
+          <caret line="232" column="13" selection-start-line="232" selection-start-column="13" selection-end-line="232" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/renderer/SingleImageRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/renderer/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scene/BackgroundGameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="371" selection-start-line="371" selection-end-line="371" />
+          <folding>
+            <element signature="e#13945#13946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.desktop/javax/swing/RepaintManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1642" selection-start-line="1642" selection-end-line="1642" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="5254" selection-start-line="5254" selection-end-line="5254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/GamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#1542#1543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="457" selection-start-line="457" selection-end-line="457" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/renderer/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/powerup/BoomExplosion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/explosion-big/explosion1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/explosion-big/explosion5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/explosion-big/explosion10.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/explosion-big/explosion9.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/explosion-big/explosion11.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/explosion-big/explosion12.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/mage/mage2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/mage/mage3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/mage/mage4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/players/straight/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/warrior/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/mage/mage5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.desktop/javax/sound/sampled/Clip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="158" column="9" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tklibs/AudioUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/powerup/PowerupSummoner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/powerup/Shield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/magician/ActualShield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="46" column="82" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.desktop/javax/sound/sampled/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-11.0.1/lib/src.zip!/java.desktop/javax/sound/sampled/DataLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="126" column="9" selection-start-line="126" selection-start-column="9" selection-end-line="126" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scene/SceneManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scene/BackgroundWelcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/powerup/Boom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="59" column="89" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scene/SceneStage1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scene/SceneWelcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/scene/SceneGameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Alien1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#3981#3982#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Bat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Ghost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/EnemySummoner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/powerup/Freeze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="e#1821#1822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameobject/enemy/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1671">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3770#3771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
