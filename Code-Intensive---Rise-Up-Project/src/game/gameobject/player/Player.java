@@ -15,6 +15,8 @@ public class Player extends GameObject implements Physics {
     BoxColider boxColider;
     FrameCounter velocityCounter;
     Vector2D oldPosition;
+    FrameCounter scoreCounter;
+    public static int score =0;
 
     public Player() {
         GameObject.midLayer.add(this);
@@ -24,6 +26,7 @@ public class Player extends GameObject implements Physics {
         this.renderer = new SingleImageRenderer(image);
         this.velocityCounter = new FrameCounter(2);
         this.oldPosition = new Vector2D(this.position.x,this.position.y);
+        this.scoreCounter = new FrameCounter(60);
     }
 
     @Override
@@ -31,6 +34,14 @@ public class Player extends GameObject implements Physics {
         this.move();
         this.limitPosition();// gioi han d chuyen
         this.velocityCalc();
+        this.scoreCalc();
+    }
+    public void scoreCalc(){
+        if (this.scoreCounter.run()){
+            this.score++;
+            this.scoreCounter.reset();
+        }
+
     }
 
     @Override

@@ -1,8 +1,11 @@
 package game.gameobject;
 
+import game.Settings;
+import game.gameobject.player.Player;
 import game.renderer.Animation;
 import tklibs.SpriteUtils;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
@@ -29,5 +32,12 @@ public class Background extends GameObject {
         if(this.position.y == 0){
             this.velocity.set(0,0);
         }
+    }
+    @Override
+    public void render(Graphics g) {
+        super.render(g);
+        g.setColor(Color.GREEN);
+        g.setFont(Settings.BIG_SIZE);
+        g.drawString(Player.score +"",Settings.BACKGROUND_WIDTH -(-40),30);
     }
 }
