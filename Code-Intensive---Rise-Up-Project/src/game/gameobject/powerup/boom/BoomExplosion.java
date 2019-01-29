@@ -1,4 +1,4 @@
-package game.gameobject.powerup;
+package game.gameobject.powerup.boom;
 
 import game.gameobject.GameObject;
 import game.renderer.Animation;

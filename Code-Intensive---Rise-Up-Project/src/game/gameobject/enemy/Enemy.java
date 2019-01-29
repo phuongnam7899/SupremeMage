@@ -5,22 +5,26 @@ import game.Vector2D;
 import game.gameobject.GameObject;
 import game.gameobject.magician.Magician;
 import game.gameobject.magician.ActualShield;
+import game.gameobject.powerup.freeze.CrystalGenerate;
 import game.physics.BoxColider;
 import game.physics.Physics;
 import game.gameobject.player.Player;
+import tklibs.SpriteUtils;
 
 import javax.sound.sampled.Clip;
+import java.awt.*;
+import java.awt.image.BufferedImage;
 
 public class Enemy extends GameObject implements Physics {
     public BoxColider boxColider;
     public Vector2D gravity = new Vector2D();
     public FrameCounter gravityCounter;
-    public FrameCounter slowDownCounter = new FrameCounter(180);
+    public FrameCounter slowDownCounter = new FrameCounter(240);
     public Boolean isSlowDown = false;
     Clip kickedSound;
 
     public Enemy() {
-        this.gravity.set(new Vector2D().set(0, 1).scale((float) 0.5));
+        this.gravity.set(0, 1).scale((float)1.5);
         this.gravityCounter = new FrameCounter(1);
     }
 
@@ -40,9 +44,20 @@ public class Enemy extends GameObject implements Physics {
     }
 
     public void velocityChange() {
+        if (this.velocity.y < 0){
+            this.gravity.set(0,1).scale((float)1.5);
+        } else {
+            this.gravity.set(0, 1).scale((float) 0.5);
+        }
         if (this.gravityCounter.run()) {
             this.velocity.add(this.gravity);
             this.gravityCounter.reset();
+        }
+        if (this.velocity.x > 2){
+            this.velocity.x = 2;
+        }
+        if (this.velocity.x < -2){
+            this.velocity.x = -2;
         }
     }
 
@@ -93,7 +108,7 @@ public class Enemy extends GameObject implements Physics {
             ActualShield shield = GameObject.findIntersected(ActualShield.class, this.boxColider);
             if (shield != null) {
                 shield.deactive();
-                magician.immune = false;
+                magician.isImmune = false;
             }
 
         }
@@ -107,6 +122,7 @@ public class Enemy extends GameObject implements Physics {
         public BoxColider getBoxColider () {
             return this.boxColider;
         }
+
 
     @Override
     public void reactive() {

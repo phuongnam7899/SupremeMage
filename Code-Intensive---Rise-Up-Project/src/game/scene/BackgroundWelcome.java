@@ -6,6 +6,7 @@ import game.Settings;
 import game.gameobject.GameObject;
 import game.renderer.Animation;
 import game.renderer.SingleImageRenderer;
+import game.scene.tutorial.SceneTutorial1;
 import tklibs.AudioUtils;
 import tklibs.SpriteUtils;
 
@@ -104,9 +105,6 @@ public class BackgroundWelcome extends GameObject {
         images.add(SpriteUtils.loadImage("assets/images/scenes/scene/start/Start84.png"));
         images.add(SpriteUtils.loadImage("assets/images/scenes/scene/start/Start85.png"));
         this.renderer = new Animation(images);
-
-
-
         this.position.set(Settings.SCREEN_WIDTH / 2
                 , Settings.SCREEN_HEIGHT / 2);
     }

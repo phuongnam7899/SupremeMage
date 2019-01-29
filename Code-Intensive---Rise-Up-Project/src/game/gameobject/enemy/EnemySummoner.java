@@ -33,7 +33,7 @@ public class EnemySummoner extends GameObject {
         if (this.summonCounter.run()) {
             int randX = rand.nextInt(Settings.SCREEN_WIDTH);
             this.position.set(randX, 0);
-            int randEnemy = rand.nextInt(4);
+            int randEnemy = rand.nextInt(5);
             if (randEnemy == 0) {
                 Bat bat = GameObject.recycle(Bat.class);
                 bat.position.set(this.position);
@@ -50,9 +50,13 @@ public class EnemySummoner extends GameObject {
                 Alien1 alien1 = GameObject.recycle(Alien1.class);
                 alien1.position.set(this.position);
             }
+            if (randEnemy == 4) {
+                Black black = GameObject.recycle(Black.class);
+               black.position.set(this.position);
+            }
             this.summonCounter.reset();
         }
-        if (this.scoreCounter.run() && this.summonCount > 10){
+        if (this.scoreCounter.run() && this.summonCount > 5){
             this.summonCount -= 2;
             this.summonCounter = new FrameCounter(summonCount);
         }

@@ -25,6 +25,7 @@ public class Ghost extends Enemy implements Physics {
         this.renderer = new Animation(images);
         this.boxColider = new BoxColider(this, 30, 30);
         this.velocity.set(0, 1);
+        this.gravityCounter = new FrameCounter(30);
     }
 
     @Override

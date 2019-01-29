@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
 
 public class GameWindow extends JFrame {
     //static
@@ -24,7 +25,7 @@ public class GameWindow extends JFrame {
     public GameWindow() {
         this.setupWindow();
         this.createGamePanel();
-
+        this.hideCursor();
         this.setVisible(true);
     }
 
@@ -63,6 +64,13 @@ public class GameWindow extends JFrame {
                 isAnyKeyPress = false;
             }
         });
+    }
+    private void hideCursor(){
+        BufferedImage cursorImg = new BufferedImage(16, 16, BufferedImage.TYPE_INT_ARGB);
+        Cursor blankCursor = Toolkit.getDefaultToolkit().createCustomCursor(
+                cursorImg, new Point(0, 0), "blank cursor");
+        this.getContentPane().setCursor(blankCursor);
+
     }
 
 }

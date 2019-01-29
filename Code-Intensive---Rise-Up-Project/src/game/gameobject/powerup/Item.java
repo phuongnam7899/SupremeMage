@@ -8,7 +8,7 @@ import game.physics.Physics;
 import java.util.Random;
 
 public class Item extends GameObject implements Physics {
-    BoxColider boxColider;
+    public BoxColider boxColider;
     int x;
     int y;
     Random rand = new Random();

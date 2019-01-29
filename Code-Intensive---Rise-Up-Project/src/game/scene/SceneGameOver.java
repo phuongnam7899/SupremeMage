@@ -13,6 +13,7 @@ public class SceneGameOver extends Scene {
 
     @Override
     public void clear() {
+        GameObject.deActiveAll();
         GameObject.clearAll();
     }
 }

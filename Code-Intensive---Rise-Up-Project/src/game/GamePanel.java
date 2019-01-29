@@ -1,12 +1,6 @@
 package game;
 
 import game.gameobject.*;
-import game.gameobject.enemy.*;
-import game.gameobject.magician.Magician;
-import game.gameobject.player.Player;
-import game.gameobject.powerup.Boom;
-import game.gameobject.powerup.Freeze;
-import game.gameobject.powerup.Shield;
 import game.scene.SceneManager;
 import game.scene.SceneWelcome;
 

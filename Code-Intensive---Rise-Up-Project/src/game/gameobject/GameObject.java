@@ -73,6 +73,12 @@ public class GameObject {
     public static void clearAll() {
         gameObjects.clear();
     }
+    public static void deActiveAll(){
+        for (int i = 0; i < gameObjects.size() ; i++) {
+            GameObject object = gameObjects.get(i);
+            object.deactive();
+        }
+    }
 
     public static void runAll() {
         for (int i = 0; i < gameObjects.size(); i++) {

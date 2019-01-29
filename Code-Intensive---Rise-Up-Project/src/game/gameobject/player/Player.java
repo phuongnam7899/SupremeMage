@@ -4,11 +4,13 @@ import game.gameobject.GameObject;
 import game.Vector2D;
 import game.physics.BoxColider;
 import game.physics.Physics;
+import game.renderer.Animation;
 import game.renderer.SingleImageRenderer;
 import tklibs.SpriteUtils;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 
 public class Player extends GameObject implements Physics {
 
@@ -16,14 +18,24 @@ public class Player extends GameObject implements Physics {
     FrameCounter velocityCounter;
     Vector2D oldPosition;
     FrameCounter scoreCounter;
-    public static int score =0;
+    public static int score;
 
     public Player() {
+        this.score = 0;
         GameObject.midLayer.add(this);
-        this.boxColider = new BoxColider(this,20,30);
+        this.boxColider = new BoxColider(this,75,60);
         this.position.set(225,600);
-        BufferedImage image = SpriteUtils.loadImage("assets/images/enemies/warrior/1.png");
-        this.renderer = new SingleImageRenderer(image);
+        ArrayList<BufferedImage> images = new ArrayList<>();
+        images.add(SpriteUtils.loadImage("assets/images/players/player/player1.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/player/player2.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/player/player3.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/player/player4.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/player/player5.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/player/player6.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/player/player7.png"));
+        images.add(SpriteUtils.loadImage("assets/images/players/player/player8.png"));
+
+        this.renderer = new Animation(images);
         this.velocityCounter = new FrameCounter(2);
         this.oldPosition = new Vector2D(this.position.x,this.position.y);
         this.scoreCounter = new FrameCounter(60);
@@ -87,5 +99,11 @@ public class Player extends GameObject implements Physics {
     @Override
     public BoxColider getBoxColider() {
         return this.boxColider;
+    }
+
+    @Override
+    public void reactive() {
+        super.reactive();
+        this.score = 0;
     }
 }

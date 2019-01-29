@@ -1,12 +1,11 @@
 package game.gameobject.powerup;
 
 import game.FrameCounter;
-import game.GameWindow;
 import game.Settings;
 import game.gameobject.GameObject;
-import game.gameobject.enemy.Ghost;
+import game.gameobject.powerup.boom.Boom;
+import game.gameobject.powerup.freeze.Freeze;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 public class PowerupSummoner extends GameObject {

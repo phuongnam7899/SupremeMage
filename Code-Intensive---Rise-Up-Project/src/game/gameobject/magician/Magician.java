@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class Magician extends GameObject implements Physics {
     BoxColider boxColider;
-    public boolean immune;
+    public boolean isImmune;
     ActualShield shield;
 
     public Magician() {
@@ -72,27 +72,21 @@ public class Magician extends GameObject implements Physics {
         image.add(SpriteUtils.loadImage("assets/images/mage/mage51.png"));
 
         this.renderer = new Animation(image);
-        this.position.set(225, 650);
-        this.boxColider = new BoxColider(this, 30, 30);
-        this.immune = false;
+        this.position.set(275, 600);
+        this.boxColider = new BoxColider(this, 150, 150);
+        this.isImmune = false;
         this.shield = new ActualShield();
 
     }
 
     public void dead() {
-        if (this.immune) {
+        if (this.isImmune) {
             return;
         } else {
             this.deactive();
+            SceneManager.signNewScene(new SceneGameOver());
         }
     }
-
-    @Override
-    public void deactive() {
-        super.deactive();
-        SceneManager.signNewScene(new SceneGameOver());
-    }
-
     public void addShield() {
         this.shield.isActive = true;
     }
@@ -100,6 +94,11 @@ public class Magician extends GameObject implements Physics {
     @Override
     public BoxColider getBoxColider() {
         return this.boxColider;
+    }
+
+    @Override
+    public void reactive() {
+        super.reactive();
     }
 }
 

@@ -1,6 +1,7 @@
 package game.gameobject.enemy;
 
 import game.FrameCounter;
+import game.gameobject.GameObject;
 import game.gameobject.enemy.Enemy;
 import game.physics.BoxColider;
 import game.physics.Physics;
@@ -15,7 +16,7 @@ public class Bat extends Enemy implements Physics {
 
 
     public Bat() {
-        midLayer.add(this);
+        GameObject.midLayer.add(this);
         this.kickedSound = AudioUtils.loadSound("assets/music/sfx/batcolide.wav");
         ArrayList<BufferedImage> images = new ArrayList<>();
         images.add(SpriteUtils.loadImage("assets/images/enemies/bat/thebat1.png"));

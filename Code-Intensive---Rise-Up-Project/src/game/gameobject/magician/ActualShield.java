@@ -24,8 +24,8 @@ public class ActualShield extends GameObject implements Physics {
         images.add(SpriteUtils.loadImage("assets/images/power-up/shield/actual2.png"));
         this.renderer = new Animation(images,5);
         this.isActive = false;
-        this.position.set(225,600);
-        this.boxColider = new BoxColider(this,200,1000);
+        this.position.set(275,575);
+        this.boxColider = new BoxColider(this,180,170);
         this.breakSound = AudioUtils.loadSound("assets/music/sfx/shield-hit.wav");
     }
 

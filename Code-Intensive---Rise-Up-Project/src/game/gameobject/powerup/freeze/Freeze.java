@@ -1,8 +1,9 @@
-package game.gameobject.powerup;
+package game.gameobject.powerup.freeze;
 
 import game.FrameCounter;
 import game.gameobject.GameObject;
 import game.gameobject.enemy.Enemy;
+import game.gameobject.powerup.Item;
 import game.physics.Physics;
 import game.gameobject.player.Player;
 import game.renderer.Animation;
@@ -10,6 +11,7 @@ import tklibs.AudioUtils;
 import tklibs.SpriteUtils;
 
 import javax.sound.sampled.Clip;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
@@ -28,6 +30,11 @@ public class Freeze extends Item implements Physics {
     public void run() {
         super.run();
         this.active();
+    }
+
+    @Override
+    public void render(Graphics g) {
+        super.render(g);
     }
 
     private void active() {
@@ -54,6 +61,7 @@ public class Freeze extends Item implements Physics {
     @Override
     public void deactive() {
         super.deactive();
+        GameObject.recycle(CrystalGenerate.class);
     }
 
         @Override

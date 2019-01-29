@@ -60,7 +60,7 @@ public class Shield extends Item implements Physics {
             for (int i = 0; i < magicians.size() ; i++) {
                 Magician magician = magicians.get(i);
                 magician.addShield();
-                magician.immune = true;
+                magician.isImmune = true;
             }
             this.deactive();
         }

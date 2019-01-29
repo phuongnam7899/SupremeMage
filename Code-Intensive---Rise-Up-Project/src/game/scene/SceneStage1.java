@@ -13,7 +13,6 @@ import tklibs.AudioUtils;
 public class SceneStage1 extends Scene {
     @Override
     public void init() {
-
         GameObject.recycle(Background.class);
         GameObject.recycle(PowerupSummoner.class);
         GameObject.recycle(EnemySummoner.class);
@@ -25,6 +24,7 @@ public class SceneStage1 extends Scene {
 
     @Override
     public void clear() {
+        GameObject.deActiveAll();
         GameObject.clearAll();
     }
 

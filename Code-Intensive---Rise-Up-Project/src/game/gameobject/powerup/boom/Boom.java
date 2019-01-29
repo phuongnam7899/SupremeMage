@@ -1,7 +1,8 @@
-package game.gameobject.powerup;
+package game.gameobject.powerup.boom;
 
 import game.gameobject.GameObject;
 import game.gameobject.enemy.Enemy;
+import game.gameobject.powerup.Item;
 import game.physics.BoxColider;
 import game.physics.Physics;
 import game.gameobject.player.Player;
