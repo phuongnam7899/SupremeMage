@@ -11,11 +11,11 @@ import tklibs.SpriteUtils;
 
 import java.awt.image.BufferedImage;
 
-public class BackgroundTutorial2 extends GameObject {
+public class BackgroundTutorial5 extends GameObject {
     FrameCounter cooldown = new FrameCounter(60);
-    public BackgroundTutorial2(){
+    public BackgroundTutorial5(){
         GameObject.botLayer.add(this);
-        BufferedImage image = SpriteUtils.loadImage("assets/images/scenes/scene/tutorial/tutorial2.png");
+        BufferedImage image = SpriteUtils.loadImage("assets/images/scenes/scene/tutorial/tutorial5.png");
         this.renderer = new SingleImageRenderer(image);
         this.position.set(Settings.SCREEN_WIDTH / 2
                 , Settings.SCREEN_HEIGHT / 2);
@@ -26,7 +26,7 @@ public class BackgroundTutorial2 extends GameObject {
         super.run();
         if (this.cooldown.run()){
             if (GameWindow.isAnyKeyPress){
-                SceneManager.signNewScene(new SceneTutorial3());
+                SceneManager.signNewScene(new SceneStage1());
             }
         }
     }

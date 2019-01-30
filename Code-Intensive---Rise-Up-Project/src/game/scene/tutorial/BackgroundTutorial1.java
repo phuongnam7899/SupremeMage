@@ -15,7 +15,7 @@ public class BackgroundTutorial1 extends GameObject {
     FrameCounter cooldown = new FrameCounter(60);
     public BackgroundTutorial1(){
         GameObject.botLayer.add(this);
-        BufferedImage image = SpriteUtils.loadImage("assets/images/earth/Earth1.png");
+        BufferedImage image = SpriteUtils.loadImage("assets/images/scenes/scene/tutorial/tutorial1.png");
         this.renderer = new SingleImageRenderer(image);
         this.position.set(Settings.SCREEN_WIDTH / 2
                 , Settings.SCREEN_HEIGHT / 2);

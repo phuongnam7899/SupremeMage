@@ -113,7 +113,7 @@ public class BackgroundWelcome extends GameObject {
     public void run() {
         super.run();
         if(GameWindow.isAnyKeyPress) {
-            SceneManager.signNewScene(new SceneStage1());
+            SceneManager.signNewScene(new SceneTutorial1());
         }
     }
 }

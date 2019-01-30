@@ -17,8 +17,8 @@ public class BackgroundGameOver extends GameObject {
     public BackgroundGameOver() {
         GameObject.topLayer.add(this);
         ArrayList<BufferedImage> images = new ArrayList<>();
-        images.add(SpriteUtils.loadImage("assets/images/scenes/scene/gameover1.png"));
-        images.add(SpriteUtils.loadImage("assets/images/scenes/scene/gameover2.png"));
+        images.add(SpriteUtils.loadImage("assets/images/scenes/scene/gameover/gameover1.png"));
+        images.add(SpriteUtils.loadImage("assets/images/scenes/scene/gameover/gameover2.png"));
         this.renderer = new Animation(images);
         this.position.set(Settings.SCREEN_WIDTH / 2
                 , Settings.SCREEN_HEIGHT / 2);
